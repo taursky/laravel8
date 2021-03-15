@@ -1,0 +1,230 @@
+@media (max-width: 1200px) {
+    /*col-xl*/
+    #wrapper {
+        width: 100%;
+        /*min-width: 928px;*/
+    }
+    .logo_avto {
+        display: none;
+    }
+
+    .sidebar {
+        float: none;
+        width: 220px;
+    }
+
+    .vertmenu li a, .side-title {
+        font-size: 12px;
+    }
+}
+@media (max-width: 1056px) {
+    .main-menu a {
+        font-size: 23px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .wrapper {
+        width: 100%;
+        max-width: 978px;
+    }
+
+    #sidebar {
+        width: 240px;
+    }
+
+    .block_cdek,
+    .logo_avto {
+        display: none;
+    }
+
+    #cdek {
+        height: 0 !important;
+    }
+
+    .block_cdek {
+        left: 0px;
+    }
+    .main-menu a {
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 992px) {
+    /* col-lg */
+    .wrapper {
+        width: 100%;
+        max-width: 991px;
+    }
+
+    .container {
+        width: 100%;
+        max-width: 994px;
+    }
+
+    .content {
+        width: 100%;
+        flex: 0 0 100%;
+    }
+
+    .main-menu {
+        display: none;
+    }
+    .mobile-login {
+        margin-left: 10px;
+    }
+    .display-mobile {
+        display: block !important;
+    }
+
+    .hide-sidebar {
+        width: 0;
+        max-width: none;
+    }
+
+    #sidebar {
+        display: none;
+    }
+    .rezOemPoisk {
+        width: 100%;
+    }
+
+}
+
+@media (max-width: 937px) {
+    /*col-lg*/
+    .mainpage_slider {
+        display: none;
+        height: 0;
+    }
+
+    .header-name {
+        /*display: none;*/
+    }
+
+    .small-logo {
+        display: block;
+    }
+
+    #center-footer {
+        width: auto;
+        max-width: 937px;
+        padding: 0 20px;
+    }
+
+    .table_japan {
+        width: auto;
+        max-width: 937px;
+    }
+
+    .table th, .table td {
+        padding: 0.5rem;
+    }
+
+    .part_revers {
+        margin: 0;
+    }
+}
+
+@media (max-width: 768px) {
+    /*col-md*/
+    .own-pagination nav span {
+        text-align: center;
+    }
+    .pl-4, .px-4 {
+        padding-left: 1px!important;
+        padding-right: 1px!important;
+    }
+    .mobile-menu .wrapper {
+        background: #0c5460;
+    }
+    .rezOemPoisk {
+        width: 100%;
+    }
+    .tablesaw-cell-content {
+        font-size: 10px;
+        overflow: hidden;
+    }
+}
+
+@media (max-width: 676px) {
+    .header {
+        height: 100px;
+    }
+    .header-name-image {
+        width: 200px;
+    }
+    .header-name-text {
+        font-size: 17px;
+    }
+    .logo {
+        height: 100px;
+    }
+    .logo img {
+        width: 140px;
+    }
+}
+
+@media (max-width: 637px) {
+    .out-btn {
+        display: none;
+    }
+}
+
+@media (max-width: 576px) {
+    /* col-sm */
+
+}
+
+@media (max-width: 494px) {
+    .table th, .table td {
+        padding: 0.2rem;
+    }
+
+    .form-list tr td {
+        padding: 0.2rem;
+        width: 50%;
+
+    }
+}
+
+@media (max-width: 464px) {
+    .mainpage_slider {
+        display: none;
+        height: 0;
+    }
+
+    .table th, .table td {
+        padding: 0;
+    }
+
+    .table th, .table td input {
+        font-family: Times;
+    }
+
+    #footer {
+        display: none;
+    }
+
+    .down_prise {
+        top: 0;
+        min-height: 100px;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    .small-logo {
+        display: block;
+    }
+
+    #header {
+        height: 90px;
+    }
+
+    .table_cart tr td, .table_japan tr td {
+        width: auto !important;
+    }
+
+}
